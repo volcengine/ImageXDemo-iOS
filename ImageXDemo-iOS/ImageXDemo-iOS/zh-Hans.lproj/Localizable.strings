@@ -1,0 +1,76 @@
+// Login
+"alert_appID_null" = "请先输入AppID!";
+"alert_read_privacy_policy" = "请先阅读用户隐私协议!";
+"alert_token_authcodes_empty" = "token和authCodes不能为空!";
+"title_welcome" = "Hi，欢迎体验veImageX";
+"title_bytedance" = "字节跳动旗下图片服务产品";
+"hint_appID" = "输入AppID可进行绑定";
+"button_login" = "立即体验";
+"label_agree" = "我已阅读并同意";
+"label_policy" = "用户隐私协议";
+"label_volcengine" = "Powerd by 火山引擎";
+
+// Main screen
+"label_veImageX" = "veImageX";
+"label_provide" = "体验一站式图片解决方案";
+"label_image_decode" = "图片解码";
+"label_progressive" = "渐进式加载";
+"label_animated" = "动图播放";
+"label_settings" = "设置";
+
+// settings
+"basic_settings" = "基础设置";
+"settings_appid" = "AppID";
+"settings_change_appid" = "修改";
+"settings_cloud_control" = "云控配置";
+"settings_cloudconfig" = "云端下发配置";
+"settings_see_cloud_control" = "查看";
+"cache_settings" = "缓存清理";
+"settings_disk_cache" = "磁盘缓存";
+"settings_memory_cache" = "内存缓存";
+"clear_disk_done" = "磁盘缓存已清除";
+"clear_memory_done" = "内存缓存已清除";
+"ignore_disk_cache" = "忽略查找磁盘缓存";
+"ignore_memory_cache" = "忽略查找内存缓存";
+"settings_cache_clear" = "清除";
+"change_appID" = "修改AppID";
+"appID_placeholder" = "输入AppID，重启后生效";
+
+// RootViewController
+"Decoding Images" = "图片解码";
+"Progressive Images" = "渐进式加载";
+"Animated Images" = "动图播放控制";
+
+// DecodeDetails
+"decode_details" = "解码详情";
+"basic_info" = "基础信息";
+"monitor_info" = "日志信息";
+"image_url" = "图片URL";
+"load_status" = "加载状态";
+"image_type" = "图片类型";
+"file_size" = "文件大小";
+"image_resolution" = "分辨率";
+"download_duration" = "网络耗时";
+"decode_duration" = "解码耗时";
+"err_code" = "错误码";
+"err_description" = "错误描述";
+"default" = "无";
+
+// AnimatedControl
+"play" = "播放";
+"pause" = "暂停";
+"stop" = "结束";
+"infinity_loop" = "永久循环";
+"custom_loop" = "自定义循环";
+"custom_loop_count" = "自定义循环次数";
+"set_custom_loop" = "输入自定义循环次数";
+
+// General
+"ok" = "确定";
+"add_url" = "添加urls\n\n\n\n\n\n\n";
+"add_url_placeholder" = "输入url，以\",\"为分割";
+"add_url_button" = "添加图片url";
+"image_is_loading" = "图片尚未加载完毕，请稍后再查看详情";
+"copy_done" = "已经粘贴到剪贴板";
+"copy" = "复制";
+"progressive_hint" = "弱网环境渐进式加载效果体验更佳";

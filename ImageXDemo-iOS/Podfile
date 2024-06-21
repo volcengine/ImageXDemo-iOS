@@ -1,0 +1,43 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/volcengine/volcengine-specs.git'
+
+platform :ios, '11.0'
+
+def image_pods
+  # imagex SDK
+  pod 'TTSDK', '1.41.3.201-imagex', :subspecs => ['Image']
+  
+  pod 'Base', :path => './Base/'
+  pod 'ImageXModule', :path => './ImageXModule/'
+  
+  # public SDK
+  pod 'Masonry'
+
+end
+
+def heifdecoder_pods
+  
+end
+
+def heifencoder_pods
+  
+end
+
+target 'ImageXDemo-iOS' do
+  image_pods
+end
+
+# xcode14 code sign
+post_install do |installer|
+  [installer.generated_projects, installer.pods_project]
+  .flatten.map{ |p| p.targets}
+  .flatten.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings["CODE_SIGN_IDENTITY"] = "-"
+        config.build_settings["CODE_SIGN_ENTITLEMENTS"] = "-"
+        config.build_settings["CODE_SIGNING_ALLOWED"] = "NO"
+        config.build_settings["CODE_SIGNING_REQUIRED"] = "NO"
+    end
+  end
+end

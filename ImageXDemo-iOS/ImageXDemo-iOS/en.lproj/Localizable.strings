@@ -1,0 +1,76 @@
+// Login
+"alert_appID_null" = "Please input AppID first!";
+"alert_read_privacy_policy" = "Please read the user privacy policy first!";
+"alert_token_authcodes_empty" = "The token and authcodes cannot be empty!";
+"title_welcome" = "Hi，welcome to veImageX";
+"title_bytedance" = "The image service product under ByteDance";
+"hint_appID" = "Please input the AppID for binding";
+"button_login" = "Experience now";
+"label_agree" = "I have agreed to";
+"label_policy" = "the user privacy policy";
+"label_volcengine" = "Powerd by volcengine";
+
+// Main screen
+"label_veImageX" = "veImageX";
+"label_provide" = "Provide one-stop image solutions";
+"label_image_decode" = "image decode";
+"label_progressive" = "progressive loading";
+"label_animated" = "animated images";
+"label_settings" = "settings";
+
+// settings
+"basic_settings" = "basic settings";
+"settings_appid" = "AppID";
+"settings_change_appid" = "change";
+"settings_cloud_control" = "Cloud Control";
+"settings_cloudconfig" = "Cloud Config";
+"settings_see_cloud_control" = "show";
+"cache_settings" = "Clear Cache";
+"settings_disk_cache" = "Disk Cache";
+"settings_memory_cache" = "Memory Cache";
+"clear_disk_done" = "disk cache has been cleared";
+"clear_memory_done" = "memory cache has been cleared";
+"ignore_disk_cache" = "ignore disk cache";
+"ignore_memory_cache" = "ignore memory cache";
+"settings_cache_clear" = "clear";
+"change_appID" = "change AppID";
+"appID_placeholder" = "input AppID, then restart";
+
+// RootViewController
+"Decoding Images" = "Decoding Images";
+"Progressive Images" = "Progressive Images";
+"Animated Images" = "Animated Images";
+
+// DecodeDetails
+"decode_details" = "Decode Details";
+"basic_info" = "Dasic Info";
+"monitor_info" = "Monitor Info";
+"image_url" = "image URL";
+"load_status" = "load status";
+"image_type" = "image type";
+"file_size" = "filesize";
+"image_resolution" = "resolution";
+"download_duration" = "download_duration";
+"decode_duration" = "decode_duration";
+"err_code" = "error code";
+"err_description" = "error description";
+"default" = "default";
+
+// AnimatedControl
+"play" = "play";
+"pause" = "pause";
+"stop" = "stop";
+"infinity_loop" = "infinity loop";
+"custom_loop" = "custom loop";
+"custom_loop_count" = "custom loop count";
+"set_custom_loop" = "set custom loop count";
+
+// General
+"ok" = "OK";
+"add_url" = "add urls\n\n\n\n\n\n\n";
+"add_url_placeholder" = "add url，split by \",\"";
+"add_url_button" = "Add Image URL";
+"image_is_loading" = "The image is still loading, please check back in a moment";
+"copy_done" = "copied to clipboard";
+"copy" = "copy";
+"progressive_hint" = "Progressive loading provides a better user experience in a weak network environment";
